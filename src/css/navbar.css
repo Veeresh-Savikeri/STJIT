@@ -1,0 +1,116 @@
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+
+.nav-container {
+    border-width: 10px;
+    border-color: rgb(248, 118, 5);
+    border-style: solid;
+    border-radius: 15px;
+    top: 0;
+    
+    box-shadow: 20px 20px 40px black;
+    z-index: 5;
+}
+
+.nav-bar-top {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    border-width: none;
+}
+
+.nav-text {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.nav-left-top {
+    font-size: 25px;
+    color: #0D1282;
+    text-align: center;
+
+}
+
+.nav-left-mid {
+    font-size: 50px;
+    color:  rgb(248, 118, 5);
+}
+
+.nav-bar-bottom {
+    background-color:  rgb(248, 118, 5);
+    height: 7vh;
+
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-items li {
+    margin-top: 10px;
+}
+
+/* navigation bar dropdown start */
+.dropDownUl {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(248, 118, 5);
+    list-style: none;
+    height: 60px;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.dropDownUl li a{
+    color:white;
+    font-size: 18px;
+    
+}
+.dropDownSub1 p a:hover{
+color:aqua;
+}
+
+
+.about {
+    position: relative;
+    display: inline-block;
+}
+.dropDownSub1{
+    display: none;
+    position: absolute;
+    background-color:  rgb(248, 118, 5);
+    box-shadow: 0px 8px 16px 0px black;
+    list-style: none;
+    z-index: 5;
+    padding: 7px;
+    width: 250px;
+    
+}
+.dropDownUl li a:hover{
+    color:aqua
+}
+.about:hover .dropDownSub1{
+display: block;
+}
+.depWidth{
+width:380px;
+}
+.right{
+    margin-top: 50px;
+}
+/* navigation bar dropdown end */
