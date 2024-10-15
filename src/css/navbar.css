@@ -6,7 +6,7 @@
 
 .nav-container {
     border-width: 10px;
-    border-color: rgb(248, 118, 5);
+    border-color: rgb(210, 81, 0);
     border-style: solid;
     border-radius: 15px;
     top: 0;
@@ -43,11 +43,11 @@
 
 .nav-left-mid {
     font-size: 50px;
-    color:  rgb(248, 118, 5);
+    color: rgb(210, 81, 0);
 }
 
 .nav-bar-bottom {
-    background-color:  rgb(248, 118, 5);
+    background-color: rgb(210, 81, 0);
     height: 7vh;
 
 }
@@ -69,7 +69,7 @@
 .dropDownUl {
     display: flex;
     justify-content: space-evenly;
-    background-color:  rgb(248, 118, 5);
+    background-color: rgb(210, 81, 0);
     list-style: none;
     height: 60px;
     align-items: center;
@@ -79,13 +79,21 @@
 .dropDownUl li a{
     color:white;
     font-size: 18px;
+    text-decoration: none;
+    font-size: 20px;
+   
+
+
     
 }
 .dropDownSub1 p a:hover{
 color:aqua;
 }
 
-
+.about div p{
+    margin-bottom: 15px;
+    border-bottom:0.5px solid white ;
+}
 .about {
     position: relative;
     display: inline-block;
@@ -93,7 +101,8 @@ color:aqua;
 .dropDownSub1{
     display: none;
     position: absolute;
-    background-color:  rgb(248, 118, 5);
+    font-weight: 500;
+    background-color: rgb(210, 81, 0);
     box-shadow: 0px 8px 16px 0px black;
     list-style: none;
     z-index: 5;
@@ -102,10 +111,11 @@ color:aqua;
     
 }
 .dropDownUl li a:hover{
-    color:aqua
+    color:black
 }
 .about:hover .dropDownSub1{
 display: block;
+margin-bottom: 20px;
 }
 .depWidth{
 width:380px;
