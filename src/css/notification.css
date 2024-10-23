@@ -1,0 +1,40 @@
+.notifications{
+    margin-top: 15vh;
+    height:60vh;
+    margin-bottom: 1vh;
+    display: flex;
+   
+}
+.notificationCard{
+    max-width: 70%;
+    height: 100%;
+    border: 2px solid black;
+}
+.notBar{
+    background-color:aquamarine;
+    height: 10%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+marquee {
+    height:50vh;
+}
+
+.calenderCard{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+
+}
+
+
+.calenderBar{
+    background-color:aquamarine;
+    height: 10%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}

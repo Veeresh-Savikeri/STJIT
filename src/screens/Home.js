@@ -1,16 +1,19 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
-import AdmissionForm from '../components/AdmissionForm'
+import Notifications from '../components/Notifications'
 import Commitment from '../components/Commitment'
+import ExploreDep from '../components/ExploreDep'
 
 export default function Home() {
  
   return (
     <div>
       <Navbar/>
-      <Slider/>  
-      <Commitment/>    
+      <Slider/>
+      <Notifications/>  
+      <Commitment/> 
+      <ExploreDep/>   
     </div>
   )
 }

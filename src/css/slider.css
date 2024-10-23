@@ -31,9 +31,9 @@ border: 2px solid white;
 
 /* circles start*/
 .circles{
-    width: 100%;
+width: 100%;
 position: absolute;
-bottom: -15%;
+bottom: -18%;
 
 }
 .dropdown-content a:hover {

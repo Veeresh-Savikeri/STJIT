@@ -68,7 +68,7 @@ export default function AdmissionForm(prop) {
                    name="message"
                 />
               </p>
-              <button className="admissionFormbtn" onClick={() => { prop.setFormdisplay(false) }}>CANCLE</button>
+              <button className="admissionFormbtn" onClick={() => { prop.setFormdisplay(false) }}>CANCEL</button>
               <button className="admissionFormbtn" value="Send" onClick={sendEmail}>SEND</button>
               {sendMail===true?(<h1 style={{color:"black",position:"absolute",top:"0px",right:"0px",backgroundColor:"orange"}}>SUCCESSFULLY SENT</h1>):''}
             </form>

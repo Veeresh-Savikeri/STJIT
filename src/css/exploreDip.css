@@ -1,0 +1,154 @@
+.exploredepCard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.expcse{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/cse.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expcse:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+}
+.expcse h4{
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+}
+/* ise */
+.expise{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/ise.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expise:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+}
+.expise h4{
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+}
+/* eee */
+.expeee{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/eee.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expeee:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+
+}
+.expeee h4{
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+}
+/* ece */
+.expece{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/ece.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expece:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+}
+.expece h4{
+    background-color: darkorange;
+    color: white;
+    height: 40px;
+}
+/* mech */
+.expmech{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/mech.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expmech:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+}
+.expmech h4{
+    background-color: darkorange;
+    color: white;
+    height: 40px;
+}
+/* civil */
+.expcivil{
+    width:13vw;
+    height: 20vh;
+    background-image: url(../img/civil.jpg);
+    background-size: contain;
+    border: 10px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px black;
+}
+.expcivil:hover{
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    transition-property:all;
+
+}
+.expcivil h4{
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+}
+
+
+
+
+.depInfo{
+    background-color:blanchedalmond;
+    min-height:50vh ;
+    width: 80vw;
+    position:absolute;
+    margin-top:5vh ;
+    left: 10vw;
+    border-radius: 40px;
+    border: 5px solid black;
+    
+}

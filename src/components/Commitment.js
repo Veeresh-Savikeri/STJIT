@@ -37,34 +37,40 @@ export default function Commitment() {
       </div>
 
       <div className="homeInfo">
-        <div className="visionCard">
-          <h1 className="visionHeading">Vision</h1>
-          <div className="vision">
-            <p>
-              Aims at developing STJIT as a premier technical institution by
-              excelling in every aspect of technical education.
-            </p>
+        <div className="visionMisson">
+          <div className="visionCard">
+            <h1 className="visionHeading">Vision</h1>
+            <div className="vision">
+              <p>
+                Aims at developing STJIT as a premier technical institution by
+                excelling in every aspect of technical education.
+              </p>
+            </div>
+          </div>
+
+          <div className="visionCard ">
+            <h1 className="visionHeading">Mission</h1>
+            <div className="vision">
+              <p>
+                Imparting technical education and training in response to the
+                changing needs of industry and society, believing in quality,
+                innovation, ethical and moral standards.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div className="visionCard ">
-          <h1 className="visionHeading">Mission</h1>
-          <div className="vision">
-            <p>
-              Imparting technical education and training in response to the
-              changing needs of industry and society, believing in quality,
-              innovation, ethical and moral standards.
-            </p>
+        <div className="ourStregth">
+          <div className="stregthCard">
+            <h1 className="stregthHeading">Our Stregth</h1>
+            <div className="stregth">
+              <ul>
+                <li>Student : 2000</li>
+                <li>Teacher : 135</li>
+                <li>UG Programmers : 6</li>
+                <li>Placements : 186+</li>
+              </ul>
+            </div>
           </div>
-        </div>
-
-        <div className="stregthCard">
-          <h1 className="stregthHeading">Our Stregth</h1>
-          <div className="stregth"><ul>
-          <li>Student : 2000</li>
-          <li>Teacher : 135</li>
-          <li>UG Programmers : 6</li>
-          <li>Placements : 186+</li></ul></div>
         </div>
       </div>
     </div>
