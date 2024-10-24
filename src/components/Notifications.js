@@ -6,7 +6,7 @@ export default function Notifications() {
       <div className="notificationCard">
         <div className="notBar">Notifications</div>
         <div className="notbody">
-          <marquee behavior="" direction="up">
+          <marquee behavior="scroll" direction="up" >
             <a href="#">
               {" "}
               * AICTE Training and Learning (ATAL) FDP Programme on "Recent
