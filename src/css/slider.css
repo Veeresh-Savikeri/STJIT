@@ -47,27 +47,40 @@ bottom: -18%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top:0px;
-
 }
-
 .circle {
     width: 170px;
     height: 170px;
-    background-image: url('../img/c-1.jpg');
+   
     background-size: cover;
     margin: 1px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 12px;
     border-color: white;
     border-radius: 50%;
 
     font-size: 90px;
     text-align: center;
     color: white;
-    /* box-shadow: 20px 20px 40px black; */
+    box-shadow: 0px 0px 50px black;
 
 }
 
+.c1{
+    background-image: url('../img/vtuLogo.jpg');
+}
+.c2{
+    background-image: url('../img/govtLogo.png')
+}
+.c3{
+    background-image: url('../img/aicte.jpg')
+}
+.c4{
+    background-image: url('../img/nss.png');
+}
+.c5{
+    background-image: url('../img/logo.png');
+}
 .circle:hover {
     transform:rotate(360deg);
     /* transform: scale(1.2); */

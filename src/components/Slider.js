@@ -28,21 +28,20 @@ export default function Slider() {
 
         <div className="circles">
           <div class="circle-container">
-            <div class="circle">
+            <div class="circle  c1">
               <i class="fa-solid fa-comments-dollar"></i>
             </div>
-            <div class="circle">
+            <div class="circle c5">
               <i class="fa-brands fa-whatsapp"></i>
             </div>
-            <div class="circle">
+            <div class="circle c2">
               <i class="fa-solid fa-image"></i>
             </div>
-           
-            <div class="circle">
+            <div class="circle c3">
               {" "}
               <i class="fa-solid fa-book"></i>
             </div>
-            <div class="circle">
+            <div class="circle c4">
               <i class="fa-solid fa-location-dot"></i>
             </div>
           </div>
