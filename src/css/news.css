@@ -63,7 +63,7 @@
 /* compamny photo slider st*/
 @keyframes slideCompany {
     from{
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
     to{
         transform: translateX(100%);
@@ -77,7 +77,7 @@
 }
 .companiesImg{
 
-    animation: 10s slideCompany infinite linear;
+    animation: 30s slideCompany infinite linear;
     display: inline-block;
 }
 .companies{
