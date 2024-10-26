@@ -21,7 +21,7 @@ export default function Navbar() {
                             <h3>
                                 <span className="nav-left-top">Sirigere Education Trust</span><br />
                                 <span className="nav-left-mid">Sri Taralabalu Jagadguru Institute Of Technology</span><br />
-                                <span className="nav-left-top">Ranebennur Dist:Haveri Tq:Ranebennur</span>
+                                <span className="nav-left-top">Ranebennur  Dist:Haveri  Tq:Ranebennur</span>
                             </h3>
                         </div>
                     </div>
