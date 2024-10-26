@@ -44,6 +44,17 @@ export default function News() {
           <img src={TECK} alt="" />
           <img src={VEE} alt="" />
           <img src={wipro} alt="" />
+          <img src={IBM} alt="" />
+          <img src={NTT} alt="" />
+          <img src={INFO} alt="" />
+          <img src={CONG} alt="" />
+          <img src={GRAD} alt="" />
+          <img src={PREST} alt="" />
+          <img src={PIN} alt="" />
+          <img src={SLK} alt="" />
+          <img src={TECK} alt="" />
+          <img src={VEE} alt="" />
+          <img src={wipro} alt="" />
         </div>
         
       </div>
