@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/navbar.css'
 import logo from '../img/logo.png'
+import swamiji from '../img/c-1-removebg-preview.png'
 
 export default function Navbar() {
     return (
@@ -28,7 +29,7 @@ export default function Navbar() {
 
 
                     <div className="right">
-                        <img src="img/brand-logo.jfif" width="100px" />
+                        <img src={logo} width="120px" height="120px" style={{borderRadius:"50%"}}/>
                     </div>
 
 
