@@ -59,3 +59,33 @@
 .newsFlex{
     justify-content: space-between;
 }
+
+/* compamny photo slider st*/
+@keyframes slideCompany {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+.companies img{
+    height: 35vh;
+    margin-left: 3vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px black;
+}
+.companiesImg{
+
+    animation: 10s slideCompany infinite linear;
+    display: inline-block;
+}
+.companies{
+    overflow: hidden;
+    margin-top: 7vh;
+    white-space: nowrap;
+}
+.companiesImg:hover {
+    animation-play-state: paused;
+}
+/* companies slider end  */

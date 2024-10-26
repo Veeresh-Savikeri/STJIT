@@ -28,7 +28,7 @@ export default function Navbar() {
 
 
                     <div className="right">
-                        <img src={swamiji} width="120px" height="120px" style={{borderRadius:"50%"}}/>
+                        <img src={swamiji} width="120px" height="100px" style={{borderRadius:"50%"}}/>
                     </div>
 
 

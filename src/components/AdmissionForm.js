@@ -38,7 +38,7 @@ export default function AdmissionForm(prop) {
                   type="text"
                   placeholder="NAME"
                   style={{ width: "35%" }}
-                  name="from_name"
+                  name="message"
                 />
               </p>
               <p>
@@ -47,7 +47,7 @@ export default function AdmissionForm(prop) {
                   type="text"
                   placeholder="EMAIL"
                   style={{ width: "34%" }}
-                  name="to_name"
+                  name="message"
                 />
               </p>
               <p>
