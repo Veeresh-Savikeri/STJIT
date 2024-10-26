@@ -9,7 +9,6 @@ export default function Navbar() {
             <div className="nav-container">
                 <div className="nav-bar-top">
 
-
                     <div className="nav-left">
                         <div className="nav-img">
                             <img src={logo} width="110px" />
@@ -29,7 +28,7 @@ export default function Navbar() {
 
 
                     <div className="right">
-                        <img src={logo} width="120px" height="120px" style={{borderRadius:"50%"}}/>
+                        <img src={swamiji} width="120px" height="120px" style={{borderRadius:"50%"}}/>
                     </div>
 
 
