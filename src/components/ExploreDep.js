@@ -453,7 +453,7 @@ export default function ExploreDep() {
           <h4>Civil Engineering</h4>
         </div>
       </div>
-      <h1 style={{ textAlign: "center", marginTop: "2vh" }}>Click on Image</h1>
+      <h1 style={{ textAlign: "center", marginTop: "2vh" }}>Select Branch</h1>
       <div className="depInfo">{pertidep()}</div>
     </div>
   );
