@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/notification.css";
+
+
 export default function Notifications() {
+  const [date,setDate]= useState(new Date())
+ 
+  const onChange= date =>{
+    setDate(date)
+    new Date(2024, 10, 27)
+  }
+
+
   return (
     <div className="notifications">
       <div className="notificationCard">
@@ -30,7 +40,10 @@ export default function Notifications() {
         </div>
       </div>
       <div className="calenderCard">
-        <div className="calenderBar">calender</div>
+        <div className="calenderBar">Calendar</div>
+        <div className="calendarBody">
+         
+        </div>
       </div>
     </div>
   );

@@ -145,7 +145,7 @@
     background-color:blanchedalmond;
     min-height:50vh ;
     width: 80vw;
-    position:absolute;
+    position: relative;
     margin-top:5vh ;
     left: 10vw;
     border-radius: 40px;

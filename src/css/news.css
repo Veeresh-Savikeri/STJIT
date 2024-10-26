@@ -1,0 +1,61 @@
+.marquees{
+    background-color: darkblue;
+}
+.newsMarquee{
+    margin-top: 5vh;
+}
+
+.newsHeading{
+   text-align: center;
+   padding-top: 3vh;
+   font-size: 45px;
+   color: darkorange;
+   font-weight: 900;
+   text-shadow: 1.5px 1.5px 2px black;
+}
+.newscard{
+    margin-left: 5vw;
+    min-height: 30vh;
+    width: 30vw;
+    background-color: rgba(0, 0, 360, 0.5);
+    border-radius: 25px;
+    /* box-shadow: 5px 5px 25px black; */
+    border: 2px solid black;
+
+}
+.newsMarquee marquee{
+    margin-top: 5vh;
+}
+.newscard p{
+    font-size: 25px;
+    text-wrap:wrap;
+    width:95%;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 6px;
+    color:darkorange;
+    text-shadow: 1.5px 1.5px 2px black;
+    display: inline;
+}
+.newsCardContent{
+    display: flex;
+    padding-right: 2vw;
+    margin-bottom: 3vh;
+}
+
+.newsCardContent  h3{
+    color: white;
+    text-wrap: wrap;
+    width:65%;
+    padding-left: 2vw;
+   
+}
+.newsCardContent img{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: auto;
+}
+
+.newsFlex{
+    justify-content: space-between;
+}
