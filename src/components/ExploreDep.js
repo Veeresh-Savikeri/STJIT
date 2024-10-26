@@ -68,7 +68,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
@@ -129,7 +129,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
@@ -200,7 +200,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
@@ -269,7 +269,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
@@ -334,7 +334,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
@@ -396,7 +396,7 @@ export default function ExploreDep() {
                 border: "2px solid black",
               }}
             >
-              more...
+              More...
             </button>
           </div>
         );
